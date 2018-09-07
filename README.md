@@ -17,6 +17,12 @@
 - สร้างหน้า Youtube //สร้างหน้าเพื่อเรียนรู้การใช้งาน Youtube Ifram
 - การนำ [Font Awesome](https://fontawesome.com/v4.7.0/) มาประยุคใช้งานกับ ionic Framwork
 
+# เตรียมเครื่องมือสำหรับพัฒนา
+  - [การติดตั้ง VS Code และ Extensions](/documents/vscode.md)
+  - [การติดตั้ง Node.js, npm และ VisualStudio Code](/documents/nodejs.md)
+  - [ติดตั้ง JDK (Java Development Kit )](/documents/jdk_install.md)
+  - [Android Studio and SDK tools](https://dl.google.com/dl/android/studio/install/3.1.4.0/android-studio-ide-173.4907809-windows.exe)
+  - [การตั้งค่า Environment PATH](/documents/environment_path.md)
 # ขั้นตอนการติดตั้ง
 - clone project
 ```sh
