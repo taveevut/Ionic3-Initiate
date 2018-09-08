@@ -31,8 +31,8 @@ $ cat ~/.gitconfig
 ```
 > ###  ผลลัพท์
 > [user] <br> 
-> name = Somprasong Damyos <br> 
-> email = somprasong@git.com 
+> user.name=Taveevut Nakomah <br> 
+> user.email=nakomah.web@gmail.com
 
 <br>
 <br>
