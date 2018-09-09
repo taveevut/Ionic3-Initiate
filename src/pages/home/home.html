@@ -1,0 +1,98 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Dashboard
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p style="text-align:center;">
+    <img src="assets/imgs/myapp_1.jpg">
+  </p>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4 (click)="goToAccount()">
+        <div class="col-main-menu">
+          <div class="home-icon">
+            <i class="fa fa-id-card"></i>
+          </div>
+          <h5 class="home-h5">บัญชีของฉัน</h5>
+        </div>
+      </ion-col>
+      <ion-col col-4 (click)="goToCamera()">
+        <div class="col-main-menu">
+          <div class="home-icon home-disabled">
+            <i class="fa fa-camera-retro"></i>
+          </div>
+          <h5 class="home-h5">กล้องถ่ายรูป</h5>
+        </div>
+      </ion-col>
+      <ion-col col-4 (click)="goToQrCode()">
+        <div class="col-main-menu">
+          <div class="home-icon">
+            <i class="fa fa-qrcode"></i>
+          </div>
+          <h5 class="home-h5">QR Code</h5>
+        </div>
+      </ion-col>
+      <ion-col col-4 (click)="goToNews()">
+        <div class="col-main-menu">
+          <div class="home-icon">
+            <i class="fa fa-newspaper-o"></i>
+          </div>
+          <h5 class="home-h5">ข่าวสาร</h5>
+        </div>
+      </ion-col>
+      <ion-col col-4>
+        <div class="col-main-menu">
+          <div class="home-icon home-disabled">
+            <i class="fa fa-cubes"></i>
+          </div>
+          <h5 class="home-h5 home-disabled">คอร์ส</h5>
+        </div>
+      </ion-col>
+      <ion-col col-4 (click)="goToTodos()">
+        <div class="col-main-menu">
+          <div class="home-icon">
+            <i class="fa fa-list-ol"></i>
+          </div>
+          <h5 class="home-h5">Todos</h5>
+        </div>
+      </ion-col>
+      <ion-col col-4 (click)="goToLogin()">
+        <div class="col-main-menu">
+          <div class="home-icon">
+            <i class="fa fa-sign-in"></i>
+          </div>
+          <h5 class="home-h5">Login (Ex)</h5>
+        </div>
+      </ion-col>
+      <ion-col col-4 (click)="goToRegister()">
+        <div class="col-main-menu ">
+          <div class="home-icon ">
+            <i class="fa fa-registered"></i>
+          </div>
+          <h5 class="home-h5">Register (Ex)</h5>
+        </div>
+      </ion-col>
+      <ion-col col-4 (click)="goToYoutube()">
+        <div class="col-main-menu">
+          <div class="home-icon">
+            <i class="fa fa-youtube-square" aria-hidden="true"></i>
+          </div>
+          <h5 class="home-h5">Youtube</h5>
+        </div>
+      </ion-col>
+      <ion-col col-4 (click)="goToLazyLoading()">
+        <div class="col-main-menu">
+          <div class="home-icon">
+            <i class="fa fa-file-code-o" aria-hidden="true"></i>
+          </div>
+          <h5 class="home-h5">Lazy Loading</h5>
+        </div>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,42 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Register (Ex)</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div id="login-page" class="auth-form-wrapper">
+    <div class="text-center">
+      <img src="assets/imgs/myapp_3.png" width="48" height="48">
+      <h1>Register (Ex)</h1>
+    </div>
+    <div class="form-wrapper">
+      <form>
+        <ion-list>
+          <ion-item>
+            <ion-label floating>ที่อยู่อีเมล์</ion-label>
+            <ion-input type="text" [(ngModel)]="email" name="email"></ion-input>
+          </ion-item>
+        </ion-list>
+        <ion-list>
+          <ion-item>
+            <ion-label floating>รหัสผ่าน</ion-label>
+            <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>
+          </ion-item>
+        </ion-list>
+        <ion-list>
+          <ion-item>
+            <ion-label floating>ชื่อ-สกุล</ion-label>
+            <ion-input type="text" [(ngModel)]="name" name="name"></ion-input>
+          </ion-item>
+        </ion-list>
+        <div>
+          <button ion-button block (click)="doSave()">บันทึกข้อมูล</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</ion-content>

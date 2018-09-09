@@ -1,0 +1,37 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Todos</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>ระบุสิ่งที่ต้องทำ</ion-label>
+      <ion-input type="text" [(ngModel)]="newItem"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button ion-button block (click)="todosSave()">บันทึก</button>
+  </div>
+
+  <ion-list inset>
+    <ion-item-sliding *ngFor="let item of todos; let i = index;">
+      <ion-item>
+        {{ item }}
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button (click)="onSuccess(i)" color="danger">
+          <ion-icon name="trash"></ion-icon>
+          ลบ
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

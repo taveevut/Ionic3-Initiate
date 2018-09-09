@@ -1,0 +1,31 @@
+page-login {
+  .auth-form-wrapper {
+    margin: auto;
+    padding-bottom: 24px;
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  #login-page {
+    h1 {
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 8px;
+      margin-top: 0;
+    }
+
+    .form-wrapper {
+      margin: 0px auto 25px;
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+}

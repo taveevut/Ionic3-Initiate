@@ -1,0 +1,36 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>ข่าวสาร</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card *ngFor="let item of news">
+    <img [src]="item.urlToImage" />
+    <ion-card-content>
+      <ion-card-title>
+        {{ item.title }}
+      </ion-card-title>
+      <p>
+        {{ item.description }}
+      </p>
+    </ion-card-content>
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='person'></ion-icon>
+          {{ item.author }}
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='calendar'></ion-icon>
+          {{ item.publishedAt | date:'dd/MM/y' }}
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>

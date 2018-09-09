@@ -1,0 +1,125 @@
+page-account {
+  .image-profil {
+    text-align: center;
+
+    img {
+      background-image: url(assets/imgs/myapp_1.jpg);
+      width: 110px !important;
+      height: 110px !important;
+      border-radius: 50%;
+      border: 2px solid #ddd;
+      margin-top: 10px;
+      margin-bottom: 6px;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  h2 {
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    color: #000000;
+    margin: 10px 0 15px;
+  }
+
+  .social-media {
+    text-align: center;
+    margin: 30px 0 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffffff;
+    margin-top: 15px;
+    border: 0;
+
+    a {
+      margin: 0 3px;
+      text-decoration: none;
+
+      i {
+        text-align: center;
+        color: #ffffff;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        height: 30px;
+        width: 30px;
+        margin: auto;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .section {
+    padding: 45px 0 !important;
+  }
+
+  .section-head {
+    margin-bottom: 35px;
+
+    .divider {
+      height: 2px;
+      width: 30px;
+      background: #83acda;
+      margin: 10px auto 0;
+    }
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+
+    .row {
+      margin-left: -0.75rem;
+      margin-right: -0.75rem;
+
+      .col {
+        float: left;
+        box-sizing: border-box;
+        padding: 0 0.75rem;
+        min-height: 1px;
+      }
+
+      .col.s6 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+      }
+    }
+  }
+
+  .portfolio ul,
+  .service .icon,
+  .skill,
+  .skill-circle,
+  .slider-content,
+  .store,
+  .testimonial {
+    text-align: center;
+  }
+
+  .service {
+    text-align: center;
+
+    .icon {
+      margin: 0 auto;
+      color: #83acda;
+      line-height: 50px;
+      font-size: 45px;
+    }
+
+    h5 {
+      margin: 15px 0 10px;
+      margin: 15px 0 10px;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
